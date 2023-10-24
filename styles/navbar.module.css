@@ -1,0 +1,42 @@
+/* Styling the navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Set the desired height */
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  position: sticky; /* Make it stick to the top of the screen */
+}
+
+/* Styling the navbar links */
+.navbar a {
+  color: black; /* Customize the link color */
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0.75;
+  margin: 0 1rem; /* Adjust the spacing between links */
+}
+
+.navbar a:hover {
+  transform: scale(1.01);
+  opacity: 1;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Stack links vertically */
+    height: auto; /* Reset the height */
+    padding: 1rem 0; /* Add some vertical spacing */
+  }
+
+  .navbar a {
+    margin: 1rem 0; /* Adjust the spacing for smaller screens */
+    font-size: smaller;
+    padding: 1rem;
+  }
+
+}

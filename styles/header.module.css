@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem; /* Adjust font size as needed */
+    color: #00CED1; 
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Russo One', sans-serif;
+  }
+
+
+  /* Media query for responsiveness */
+@media (max-width: 768px) {
+    .header {
+      font-size: 3.5rem; /* Adjust font size for smaller screens */
+    }
+  }

@@ -1,0 +1,197 @@
+
+.footerContainer {
+    background-color: #222222;
+}
+
+/* Styling the social icons container */
+.socialIcons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 1rem; /* Adjust spacing */
+    padding-top: 2rem;
+  }
+  
+  /* Styling the social icon list */
+  .socialIcons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 4rem; /* Adjust the gap between icons */
+  }
+  
+  /* Styling the social icon list items */
+  .socialIcons li {
+    color: white; /* Customize the icon color */
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .socialIcons li:hover {
+    opacity: 1;
+}
+
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .socialIcons {
+      margin-top: 10px; /* Adjust spacing for smaller screens */
+    }
+  
+    .socialIcons li {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+
+/* Styling the newsletter container */
+.newsletterContainer {
+    text-align: center; /* Center align the paragraphs */
+    margin-top: 2rem; /* Adjust spacing */
+  }
+  
+  /* Styling the paragraphs */
+  .newsletterContainer p {
+    font-size: 1rem;
+    color: white; /* Customize text color */
+    padding: 1rem;
+    margin: 1rem 0; /* Adjust vertical spacing */
+  }
+  
+  .newsletterContainer p:first-child {
+    font-size: 2.5rem;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .newsletterContainer {
+      margin-top: 1rem; /* Adjust spacing for smaller screens */
+    }
+  
+    .newsletterContainer p {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+
+/* Styling for the input container */
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2px;
+  }
+  
+  /* Styling for the input field */
+  .inputContainer input[type="email"] {
+    padding: 0.5rem;
+    width: 18rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    width: 25%;
+  }
+  
+  /* Styling for the button */
+  .inputContainer button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #20c997;
+    opacity: 0.9;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .inputContainer button:hover {
+    opacity: 1;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .inputContainer {
+      flex-direction: column; /* Stack input and button vertically */
+      align-items: center; /* Center horizontally */
+      margin-top: 1rem; /* Adjust spacing for smaller screens */
+    }
+  
+    .inputContainer input[type="email"] {
+      width: 75%; /* Full width for smaller screens */
+    }
+  
+    .inputContainer button {
+      margin-top: 1rem; /* Adjust spacing for smaller screens */
+    }
+  }
+  
+  /* Styling for the link container */
+  .linkContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.25rem;
+    align-items: center;
+    margin-top: 4.25rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Styling for the links */
+  .linkContainer a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    margin: 0.5rem;
+    padding: 0 1rem;
+  }
+
+  .linkContainer a:hover {
+    opacity: 1;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .inputContainer {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0.625rem;
+    }
+  
+    .inputContainer input[type="email"] {
+      width: 75%;
+    }
+  
+    .linkContainer {
+      padding: 0.2rem;
+    }
+  
+    .linkContainer a {
+      font-size: 0.9rem;
+      padding-top: 0.1rem;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+    }
+  }
+  
+
+  .copyright {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+  }
+
+  .copyright span {
+    color: red;
+  }
+
+
+  .dot {
+    transform: scale(2);
+    color: white;
+    opacity: 0.6;
+  }
+
+  .dot:hover {
+    opacity: 1;
+  }

@@ -1,0 +1,56 @@
+
+.title {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.title h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.title p {
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input  {
+    border: 1px solid black;
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 38rem;
+}
+
+.textarea {
+    padding: 1rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+
+.button {
+    background-color: #20c997;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    width: 38rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    .input, .button {
+        width: 15rem;
+    }
+}
